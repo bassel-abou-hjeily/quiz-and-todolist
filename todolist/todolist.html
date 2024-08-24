@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <div class="container">
+            <h1>To-Do List</h1>
+            <div class="addtask">
+                <input type="text" class="newTask" id="newTask" placeholder="Add a new Task">
+                <button class="Add" id="addnewtask" type="button">Add</button>
+            </div>
+            <div class="taskbtn">
+                <button class="All" type="button">All</button>
+                <button class="Active" type="button">Active</button>
+                <button class="Completed" type="button">Completed</button>
+            </div>
+            <div class="tasks">
+                <ul class="task-list" id="task-list"></ul>
+            </div>
+        </div>
+    </form>
+    <script src="app.js"></script>
+</body>
+
+</html>

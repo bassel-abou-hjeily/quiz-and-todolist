@@ -1,0 +1,128 @@
+.container {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newTask {
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding: 16px;
+    margin: 5px;
+    flex: 1;
+}
+
+.newTask:focus {
+    border: 3px solid rgb(0, 120, 200);
+    outline: none;
+}
+
+.Add {
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 25%;
+    color: white;
+    cursor: pointer;
+    padding: 16px;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+
+.Add:hover {
+    background-color: rgb(0, 255, 120);
+}
+
+.taskbtn {
+    margin: 10px;
+}
+
+.All,
+.Active,
+.Completed {
+    background-color: #0000ff;
+    border: 1px solid blue;
+    border-radius: 15%;
+    color: white;
+    cursor: pointer;
+    padding: 16px;
+    margin: 5px;
+    width: max-content;
+    height: max-content;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.All:hover,
+.Active:hover,
+.Completed:hover {
+    background-color: rgb(0, 120, 240);
+}
+
+button {
+    background-color: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-completed {
+    text-decoration: line-through;
+}
+
+.edit {
+    color: white;
+    background-color: yellow;
+}
+
+.delete {
+    color: white;
+    background-color: red;
+}
+
+.done {
+    color: white;
+    background-color: green;
+}
+
+.taskItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.taskItem p {
+    flex: 1;
+    margin: 0;
+}
+
+.taskItem button {
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Quiz Game</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Advanced Quiz Game</h1>
+        <div id="difficulty-cont">
+            <h2>Select Difficulty</h2>
+            <button class="difficulty-btn" onclick="startQuiz('easy')">EASY</button>
+            <button class="difficulty-btn" onclick="startQuiz('medium')">MEDIUM</button>
+            <button class="difficulty-btn" onclick="startQuiz('hard')">HARD</button>
+        </div>
+        <div id="quiz-cont">
+            <div id="question"></div>
+            <div id="question-count"></div>
+            <div id="options"></div>
+            <div id="timer">Timer left: <span id="time-value">50</span> seconds</div>
+            <button id="next-button">Next</button>
+            <div id="result"></div>
+            <div id="leaderboard"></div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
